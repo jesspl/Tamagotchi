@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> 
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <table > 
+        <tr id="navtab" style="background-color: black; color: white" > 
+            <td ><label> Nombre: </label><label id="name"></label></td>
+            <td><label> Genero: </label><label id="gender">  </label></td>
+            <td><label> Hambre: </label><label id="hambre">  </label> </td>
+            <td><label > Felicidad:  </label><label id="felicidad">  </label> </td>
+            <td colspan="1"> <label> Salud: </label> <label id="salud">  </label>  </td>
+        </tr>
+        <tr id="tdmain"> 
+          <td colspan="5"> <img style="width:300px"  src="https://th.bing.com/th/id/R.6c15f1352f3ba1a45f424675d98399b4?rik=PBoM9XHbrMU%2f5g&riu=http%3a%2f%2ftodovector.com%2fvector%2fanimales%2fterrestres%2fconejos%2f28.png&ehk=%2f8h%2fEPb2JuTjHQI7W%2bioDgPzVehq%2fMSlPQ2t6F4nrQo%3d&risl=&pid=ImgRaw&r=0" alt="conejo"> </td>
+          <td><button id='resete' type="button" class="btn btn-secondary" onclick="reset()"> Reset </button> </td>
+        </tr>
+        <tr > 
+            <td colspan="2" id="accion"> <button type="button" class="btn btn-secondary" onclick="jugar()"> Jugar </button> </td>
+            <td colspan="2" id="accion"><button type="button" class="btn btn-secondary" onclick="alimentar()"> Alimentar </button> </td>
+            <td colspan="2" id="accion"><button type="button" class="btn btn-secondary"> Pasar </button> </td>
+        </tr>
+    </table>
+  </body>
+</html>
+
+
+<!-- https://media.istockphoto.com/photos/dead-wild-rabbit-picture-id180379917?k=6&m=180379917&s=612x612&w=0&h=eMgf25Ny3Vk6UHgXyt-xn4Bb3yPq3cXr-CVhajK8LUo= -->
+
+<!-- https://www.euroresidentes.com/hogar/mascotas/wp-content/uploads/sites/5/2016/01/Animales-Conejo-322494-1024x816.png -->
+
